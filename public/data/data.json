@@ -1,0 +1,286 @@
+{
+  "data": [
+    {
+      "online_category_id": "1000444",
+      "name": "Maternity Online Category",
+      "description": "",
+      "displayOrder": 1,
+      "url": "",
+      "intakeApplicationTypes": [
+        {
+          "application_type_id": "2000441",
+          "iegScriptId": "HFPIntakeMaternity",
+          "individualProgramSelectionAllowed": false,
+          "iegSubmissionScriptId": "HFPIntake_submission",
+          "datastoreSchema": "HFPIntake",
+          "name": "Maternity Application",
+          "summary": "EI Maternity",
+          "description": "Application for EI Maternity benefit",
+          "displayOrder": 0,
+          "canApplyFor": true,
+          "pdfFormId": "522244",
+          "associatedDraftApplicationId": "0",
+          "url": "",
+          "submitOnCompletionInd": false,
+          "icon": "",
+          "allowedWithdrawalReasons": [],
+          "programs": [
+            {
+              "programId": "2000200",
+              "name": "Maternity Program",
+              "description": "Click the Apply button to submit an application for EI Maternity benefit",
+              "displayOrder": 1,
+              "canApplyFor": true,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            }
+          ]
+        }
+      ],
+      "onlineScreeningTypes": [
+        {
+          "name": "MaternityScreening",
+          "description": "",
+          "displayOrder": 0,
+          "summary": "",
+          "url": "",
+          "howToApply": "",
+          "amIEligibile": "",
+          "iegFilterScreeningSchemaName": "",
+          "iegFilterScreeningScriptId": "",
+          "iegScreeningSchemaName": "Triage1",
+          "iegScreeningScriptId": "Triage Participant Script1",
+          "programSelectionInd": false,
+          "rescreenInd": false,
+          "screeningTypeId": "522233",
+          "icon": "",
+          "programs": [
+            {
+              "programId": "2000201",
+              "name": "Regular Program",
+              "description": "Click the Apply button to submit an application for EI Regular benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            },
+            {
+              "programId": "2000200",
+              "name": "Maternity Program",
+              "description": "Click the Apply button to submit an application for EI Maternity benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": [
+                {
+                  "pdfFormId": "522244"
+                }
+              ]
+            },
+            {
+              "programId": "2000202",
+              "name": "Sickness Program",
+              "description": "Click the Apply button to submit an application for EI Sickness benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "online_category_id": "1000446",
+      "name": "Sickness Online Category",
+      "description": "",
+      "displayOrder": 1,
+      "url": "",
+      "intakeApplicationTypes": [
+        {
+          "application_type_id": "2000443",
+          "iegScriptId": "HFPIntakeSickness",
+          "individualProgramSelectionAllowed": false,
+          "iegSubmissionScriptId": "HFPIntake_submission",
+          "datastoreSchema": "HFPIntake",
+          "name": "Sickness Application",
+          "summary": "EI Sickness",
+          "description": "Application for EI Sickness benefit",
+          "displayOrder": 0,
+          "canApplyFor": true,
+          "pdfFormId": "0",
+          "associatedDraftApplicationId": "0",
+          "url": "",
+          "submitOnCompletionInd": false,
+          "icon": "",
+          "allowedWithdrawalReasons": [],
+          "programs": [
+            {
+              "programId": "2000202",
+              "name": "Sickness Program",
+              "description": "Click the Apply button to submit an application for EI Sickness benefit",
+              "displayOrder": 1,
+              "canApplyFor": true,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            }
+          ]
+        }
+      ],
+      "onlineScreeningTypes": [
+        {
+          "name": "MaternityScreening",
+          "description": "",
+          "displayOrder": 0,
+          "summary": "",
+          "url": "",
+          "howToApply": "",
+          "amIEligibile": "",
+          "iegFilterScreeningSchemaName": "",
+          "iegFilterScreeningScriptId": "",
+          "iegScreeningSchemaName": "Triage1",
+          "iegScreeningScriptId": "Triage Participant Script1",
+          "programSelectionInd": false,
+          "rescreenInd": false,
+          "screeningTypeId": "522233",
+          "icon": "",
+          "programs": [
+            {
+              "programId": "2000201",
+              "name": "Regular Program",
+              "description": "Click the Apply button to submit an application for EI Regular benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            },
+            {
+              "programId": "2000200",
+              "name": "Maternity Program",
+              "description": "Click the Apply button to submit an application for EI Maternity benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": [
+                {
+                  "pdfFormId": "522244"
+                }
+              ]
+            },
+            {
+              "programId": "2000202",
+              "name": "Sickness Program",
+              "description": "Click the Apply button to submit an application for EI Sickness benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "online_category_id": "1000445",
+      "name": "Regular Online Category",
+      "description": "Sickness benefit online category",
+      "displayOrder": 1,
+      "url": "",
+      "intakeApplicationTypes": [
+        {
+          "application_type_id": "2000442",
+          "iegScriptId": "HFPIntake",
+          "individualProgramSelectionAllowed": false,
+          "iegSubmissionScriptId": "HFPIntake_submission",
+          "datastoreSchema": "HFPIntake",
+          "name": "Regular Application",
+          "summary": "EI Regular",
+          "description": "Application for EI Regular benefit",
+          "displayOrder": 0,
+          "canApplyFor": true,
+          "pdfFormId": "0",
+          "associatedDraftApplicationId": "0",
+          "url": "",
+          "submitOnCompletionInd": false,
+          "icon": "",
+          "allowedWithdrawalReasons": [],
+          "programs": [
+            {
+              "programId": "2000201",
+              "name": "Regular Program",
+              "description": "Click the Apply button to submit an application for EI Regular benefit",
+              "displayOrder": 1,
+              "canApplyFor": true,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            }
+          ]
+        }
+      ],
+      "onlineScreeningTypes": [
+        {
+          "name": "MaternityScreening",
+          "description": "",
+          "displayOrder": 0,
+          "summary": "",
+          "url": "",
+          "howToApply": "",
+          "amIEligibile": "",
+          "iegFilterScreeningSchemaName": "",
+          "iegFilterScreeningScriptId": "",
+          "iegScreeningSchemaName": "Triage1",
+          "iegScreeningScriptId": "Triage Participant Script1",
+          "programSelectionInd": false,
+          "rescreenInd": false,
+          "screeningTypeId": "522233",
+          "icon": "",
+          "programs": [
+            {
+              "programId": "2000201",
+              "name": "Regular Program",
+              "description": "Click the Apply button to submit an application for EI Regular benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            },
+            {
+              "programId": "2000200",
+              "name": "Maternity Program",
+              "description": "Click the Apply button to submit an application for EI Maternity benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": [
+                {
+                  "pdfFormId": "522244"
+                }
+              ]
+            },
+            {
+              "programId": "2000202",
+              "name": "Sickness Program",
+              "description": "Click the Apply button to submit an application for EI Sickness benefit",
+              "displayOrder": 0,
+              "canApplyFor": false,
+              "associatedPendingApplicationId": "0",
+              "icon": "",
+              "pdfFormIds": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
