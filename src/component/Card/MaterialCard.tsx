@@ -32,9 +32,10 @@ const MaterialCard = ({ title, subtitle, bodyText, buttonText, onClick }) => {
         </p>
         <CardActions className="flex justify-between">
         <p className="from-neutral-500 text-xl">{bodyText}</p>
-          <button className="bg-sky-300 rounded-md hover:bg-sky-600  px-4 py-2 text" onClick={onClick}>
+          <button className="bg-sky-300 rounded-md hover:bg-sky-600 font-semibold  px-4 py-2 text" onClick={onClick}>
             {buttonText}
           </button>
+          
         </CardActions>
       </CardContent>
     </Card>
