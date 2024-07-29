@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./component/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import ShowData from "./component/ShowData";
 import Screening from "./pages/Screening.tsx";
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/data" element={<ShowData/>} />
+
+
         <Route path="/screening" element={<Screening/>} />
       </Routes>
     </>
