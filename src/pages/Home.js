@@ -9,7 +9,13 @@ const Home = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("/data/data.json");
+      const response = await axios.get("/data/data.json",{
+        method:"GET",
+        headers:{
+          // Authorization:`Bearer : ${token}`,
+          "Content-Type":"application/json"
+        }
+      });
       setData(response.data.data);
     } catch (error) {
       console.log(error);
