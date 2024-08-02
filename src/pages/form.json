@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Personal Information Page",
+  "type": "object",
+  "properties": {
+    "6968194523448999936": {
+      "type": "object",
+      "title": "Personal Information",
+      "properties": {
+        "Person.ssn": {
+          "type": "string",
+          "title": "What is your Social Insurance Number?"
+        },
+        "Person.dateOfBirth": {
+          "type": "string",
+          "format": "date",
+          "title": "What is your Date of Birth?"
+        },
+        "Person.gender": {
+          "type": "string",
+          "title": "What is your gender?",
+          "enum": ["", "SX2", "SX1"],
+          "enumNames": ["--Please Select--", "Female", "Male"]
+        },
+        "Person.lastName": {
+          "type": "string",
+          "title": "What is your Last Name?"
+        },
+        "Person.personAddress": {
+          "type": "string",
+          "title": "Enter your postal code if below mentioned address is incorrect."
+        },
+        "Person.firstName": {
+          "type": "string",
+          "title": "What is your First Name?"
+        }
+      },
+      "required": [
+        "Person.ssn",
+        "Person.firstName",
+        "Person.lastName",
+        "Person.dateOfBirth",
+        "Person.gender"
+      ]
+    },
+    "699183842149269504": {
+      "type": "object",
+      "title": "Contact Information",
+      "properties": {
+        "Person.homePhoneNumber": {
+          "type": "string",
+          "title": "What is your phone number?"
+        },
+        "Person.email": {
+          "type": "string",
+          "title": "What is your Email address?"
+        }
+      },
+      "required": ["Person.email", "Person.homePhoneNumber"]
+    },
+    "-3263983829936766976": {
+      "type": "object",
+      "title": "Address Information",
+      "properties": {
+        "Address.street1": {
+          "type": "string",
+          "title": "Address Line Item1"
+        },
+        "Address.street2": {
+          "type": "string",
+          "title": "Suite number/PO box/ Street number"
+        },
+        "Address.city": {
+          "type": "string",
+          "title": "City"
+        },
+        "Address.province": {
+          "type": "string",
+          "title": "Province",
+          "enum": [
+            "",
+            "AB",
+            "BC",
+            "MB",
+            "NB",
+            "NL",
+            "NS",
+            "NT",
+            "NU",
+            "ON",
+            "PE",
+            "QC",
+            "SK",
+            "YT"
+          ],
+          "enumNames": [
+            "--Please Select--",
+            "AB",
+            "BC",
+            "MB",
+            "NB",
+            "NL",
+            "NS",
+            "NT",
+            "NU",
+            "ON",
+            "PE",
+            "QC",
+            "SK",
+            "YT"
+          ]
+        },
+        "Address.postalCode": {
+          "type": "string",
+          "title": "Postal Code"
+        }
+      },
+      "required": [
+        "Address.street1",
+        "Address.city",
+        "Address.province",
+        "Address.postalCode"
+      ]
+    }
+  },
+  "required": [
+    "6968194523448999936",
+    "699183842149269504",
+    "-3263983829936766976"
+  ]
+}
