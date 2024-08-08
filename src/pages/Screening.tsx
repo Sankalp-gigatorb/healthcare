@@ -56,12 +56,14 @@ const Screening = () => {
       //   }
       // );
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
 
-  const handleSubmit = () => {
-    navigate("/info");
+  const handleSubmit = (resData:any) => {
+    const id = resData.application_form_id;
+    const page = resData.isPartialApplication;
+    navigate(`/info/${id}/${page}`);
   };
 
   return (
@@ -112,7 +114,7 @@ const Screening = () => {
           <div className="flex gap-4">
             <button
               className="bg-green-500 px-4 text-white py-0.5 rounded-md"
-              onClick={handleSubmit}
+              onClick={() => handleSubmit(resData)}
             >
               Apply
             </button>
